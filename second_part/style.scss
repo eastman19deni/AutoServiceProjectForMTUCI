@@ -1,0 +1,114 @@
+@import 'vars';
+
+* {
+    font-family: Advent Pro;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.center {
+    padding-left: calc(50% - $widthSite);
+    padding-right: calc(50% - $widthSite);
+}
+
+.header {
+    background: #6461EA;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-weight: 500;
+        font-size: 120px;
+        line-height: 180px;
+    }
+}
+
+.body {
+    background: #D2AF9E;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .reaserchInTheMap {
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .text_map {
+        display: flex;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 48px;
+        color: #000000CC;
+    }
+
+    .Map {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .searchFor-a-Service {
+        font-size: 24px;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+
+        .text_service {
+            font-size: 24px;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.objects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    background: $backgroundcolor;
+
+    .information{
+        background: #FFFFFF;
+        width: 384px;
+        font-weight: 500;
+        font-size: 20px;
+        display: grid;
+        padding-left: 30px;
+    }
+}
+
+.otherSpecialOffers{
+    background: $backgroundcolor;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 25px;
+    p{
+        
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        width: 1200px;
+    }
+}
+
+.Button{
+    background: #6461EA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
