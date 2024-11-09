@@ -44,59 +44,31 @@
         justify-content: center;
     }
 
-    .link {
-        background: blue;
-        width: 250px;
-        height: 150px;
-        position: relative;
-        left: 30em;
+    .position__links {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 90px;
+    }
 
+    .link {
+        height: 60px;
+        display: inline-block;
+        padding: 0px 0px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border-radius: 40px;
+        font-size: 20px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        border: none;
+        text-align: center;
+        width: 212px;
     }
 
 }
 
-// .objects {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     justify-items: center;
-//     box-sizing: border-box;
-//     background: $backgroundcolor;
-
-//     .information{
-//         background: #FFFFFF;
-//         width: 384px;
-//         font-weight: 500;
-//         font-size: 20px;
-//         display: grid;
-//         padding-left: 30px;
-//     }
-// }
-
-// .otherSpecialOffers{
-//     background: $backgroundcolor;
-//     display: flex;
-//     justify-content: center;
-//     padding-top: 32px;
-//     padding-bottom: 25px;
-//     p{
-
-//         display: flex;
-//         font-size: 24px;
-//         justify-content: center;
-//         background-color: #FFFFFF;
-//         border-radius: 15px;
-//         padding-top: 12px;
-//         padding-bottom: 12px;
-//         width: 1200px;
-//     }
-// }
-
-.Button {
+.Botton {
     background: #6461EA;
     display: flex;
     justify-content: space-around;
