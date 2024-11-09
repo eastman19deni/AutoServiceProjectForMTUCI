@@ -1,5 +1,4 @@
 * {
-  font-family: Advent Pro;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +13,12 @@
   display: flex;
   justify-content: center;
 }
+.header .button {
+  text-decoration: none;
+  color: #666;
+}
 .header h1 {
+  color: white;
   font-weight: 500;
   font-size: 120px;
   line-height: 180px;
@@ -25,72 +29,22 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.body .reaserchInTheMap {
-  background-color: #FFFFFF;
-  border-radius: 15px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.body .text_map {
-  display: flex;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 48px;
-  color: rgba(0, 0, 0, 0.8);
-}
 .body .Map {
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
   justify-content: center;
 }
-.body .searchFor-a-Service {
-  font-size: 24px;
-  background-color: #FFFFFF;
-  border-radius: 15px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.body .searchFor-a-Service .text_service {
-  font-size: 24px;
-  background: #ffffff;
-  display: flex;
-  justify-content: center;
-}
-
-.objects {
+.body .link {
+  background: blue;
+  width: 250px;
+  height: 150px;
+  position: relative;
+  left: 30em;
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-items: center;
-  box-sizing: border-box;
-  background: #D2AF9E;
-}
-.objects .information {
-  background: #FFFFFF;
-  width: 384px;
-  font-weight: 500;
-  font-size: 20px;
-  display: grid;
-  padding-left: 30px;
-}
-
-.otherSpecialOffers {
-  background: #D2AF9E;
-  display: flex;
-  justify-content: center;
-  padding-top: 32px;
-  padding-bottom: 25px;
-}
-.otherSpecialOffers p {
-  display: flex;
-  font-size: 24px;
-  justify-content: center;
-  background-color: #FFFFFF;
-  border-radius: 15px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  width: 1200px;
+  border-radius: 90px;
 }
 
 .Button {
