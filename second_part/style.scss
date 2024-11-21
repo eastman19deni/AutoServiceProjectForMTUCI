@@ -3,6 +3,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
 }
 
@@ -32,7 +36,7 @@
 }
 
 .body {
-    background: #D2AF9E;
+    background: #5D6A76;
 
     padding-top: 32px;
     padding-bottom: 32px;
@@ -69,7 +73,7 @@
 }
 
 .Botton {
-    background: #6461EA;
+    background: #0076AE;
     display: flex;
     justify-content: space-around;
     align-items: center;
