@@ -32,6 +32,8 @@
   background: #5D6A76;
   padding-top: 32px;
   padding-bottom: 32px;
+  width: 1;
+  height: 82vh;
 }
 .body .Map {
   padding-top: 32px;
