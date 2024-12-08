@@ -1,0 +1,10 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="140" fill="#6A0DAD" stroke="#2E8B8B" stroke-width="10"/>
+
+  <!-- Stylized Letters "СС" -->
+  <text x="50%" y="50%" text-anchor="middle" fill="#2E8B8B" font-size="120" font-family="Arial" font-weight="bold" dy="0.35em">
+    СС
+  </text>
+</svg>
