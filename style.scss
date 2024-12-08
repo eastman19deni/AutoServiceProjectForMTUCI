@@ -6,9 +6,35 @@
     font-style: normal;
 }
 
+
+.top__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 160px;
+    padding-left: 160px;
+    background-color: #0076AE;
+    position: relative;
+    top: 4px;
+
+
+    &__left{
+        display: flex;
+        justify-content: center;
+    }
+
+    &_right{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        gap: 32px;
+        top: 4px;
+    }
+}
+
 .cont {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
